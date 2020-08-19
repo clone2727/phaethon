@@ -49,7 +49,7 @@ public:
 	struct MipMap {
 		int    width;  ///< The mip map's width.
 		int    height; ///< The mip map's height.
-		uint32 size;   ///< The mip map's size in bytes.
+		uint32_t size;   ///< The mip map's size in bytes.
 
 		std::unique_ptr<byte[]> data; ///< The mip map's data.
 
